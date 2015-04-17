@@ -19,9 +19,9 @@
             <div id="navbar">
                 <ul id="navlist">
                     <li><asp:HyperLink ID="HyperLink1" runat="server">Shoes</asp:HyperLink></li>
-                    <li><asp:HyperLink ID="HyperLink2" runat="server">Men's</asp:HyperLink></li>
-                    <li><asp:HyperLink ID="HyperLink3" runat="server">Women's</asp:HyperLink></li>
-                    <li><asp:HyperLink ID="HyperLink4" runat="server">Children's</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/Men.aspx">Men's</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/Women.aspx">Women's</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Children.aspx">Children's</asp:HyperLink></li>
                     <li><asp:HyperLink ID="HyperLink5" runat="server">Clearance</asp:HyperLink></li>
                 </ul>
             </div>
